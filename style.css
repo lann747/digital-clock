@@ -45,19 +45,19 @@
   transform: translateX(-50%);
 }
 #hrs::after {
-  content: "HOURES";
+  content: "JAM";
   color: rgb(0, 174, 255);
   font-weight: 600;
   margin-bottom: -10px;
 }
 #min::after {
-  content: "MINS";
+  content: "MENIT";
   color: rgb(0, 174, 255);
   font-weight: 600;
   margin-bottom: -10px;
 }
 #sec::after {
-  content: "SEC";
+  content: "DETIK";
   color: rgb(0, 174, 255);
   font-weight: 600;
   margin-bottom: -10px;
@@ -85,11 +85,11 @@
   inset: 0;
   background: repeating-conic-gradient(
     from var(--a),
-    rgb(0, 150, 255),
-    rgb(0, 120, 255),
+    rgb(0, 170, 255),
+    rgb(0, 130, 255),
     rgb(0, 90, 255),
-    rgb(0, 60, 255),
-    rgb(0, 30, 255)
+    rgb(0, 50, 255),
+    rgb(0, 10, 255)
   );
   border-radius: 20px;
   animation: rotate 4s linear infinite;
