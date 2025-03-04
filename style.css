@@ -46,35 +46,35 @@
 }
 #hrs::after {
   content: "JAM";
-  color: rgb(0, 174, 255);
+  color: rgb(0, 64, 255);
   font-weight: 600;
   margin-bottom: -10px;
 }
 #min::after {
   content: "MENIT";
-  color: rgb(0, 174, 255);
+  color: rgb(0, 64, 255);
   font-weight: 600;
   margin-bottom: -10px;
 }
 #sec::after {
   content: "DETIK";
-  color: rgb(0, 174, 255);
+  color: rgb(0, 64, 255);
   font-weight: 600;
   margin-bottom: -10px;
 }
 
-/*Animasi Bingkai*/
+/*------Anemated Border---------*/
 .box::before {
   content: "";
   position: absolute;
   inset: 0;
   background: repeating-conic-gradient(
     from var(--a),
-    rgb(0, 170, 255),
-    rgb(0, 130, 255),
-    rgb(0, 90, 255),
-    rgb(0, 50, 255),
-    rgb(0, 10, 255)
+    rgb(0, 200, 255),
+    rgb(0, 160, 255),
+    rgb(0, 120, 255),
+    rgb(0, 80, 255),
+    rgb(0, 40, 255)
   );
   border-radius: 20px;
   animation: rotate 6s linear infinite;
@@ -85,11 +85,11 @@
   inset: 0;
   background: repeating-conic-gradient(
     from var(--a),
-    rgb(0, 170, 255),
-    rgb(0, 130, 255),
-    rgb(0, 90, 255),
-    rgb(0, 50, 255),
-    rgb(0, 10, 255)
+    rgb(0, 200, 255),
+    rgb(0, 160, 255),
+    rgb(0, 120, 255),
+    rgb(0, 80, 255),
+    rgb(0, 40, 255)
   );
   border-radius: 20px;
   animation: rotate 4s linear infinite;
@@ -101,7 +101,7 @@
   inset: 4px;
   background: #0d0577;
   border-radius: 16px;
-  color: rgb(0, 119, 255);
+  color: #ff0;
   font-size: 20px;
   z-index: 1;
   display: flex;
