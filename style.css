@@ -70,11 +70,11 @@
   inset: 0;
   background: repeating-conic-gradient(
     from var(--a),
-    rgb(0, 150, 255),
-    rgb(0, 120, 255),
+    rgb(0, 170, 255),
+    rgb(0, 130, 255),
     rgb(0, 90, 255),
-    rgb(0, 60, 255),
-    rgb(0, 30, 255)
+    rgb(0, 50, 255),
+    rgb(0, 10, 255)
   );
   border-radius: 20px;
   animation: rotate 6s linear infinite;
